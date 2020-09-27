@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "segoe ui";
+}
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(tech.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.form-wrapper {
+  background-color: rgb(255, 255, 255);
+  height: 370px;
+  width: 270px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+form {
+  text-align: center;
+}
+form h1 {
+  color: rgb(95, 95, 95);
+  font-weight: 400;
+}
+
+input[type="text"],
+[type="password"] {
+  border: none;
+  padding: 10px;
+  margin: 2%;
+  border-radius: 50px;
+  width: 90%;
+  background-color: rgb(231, 231, 231);
+  outline: none;
+}
+input[type="submit"] {
+  border: none;
+  padding: 7px;
+  font-size: 15px;
+  margin: 1%;
+  border-radius: 50px;
+  background-image: linear-gradient(
+    100deg,
+    rgb(255, 28, 134),
+    rgb(255, 0, 200)
+  );
+  color: #fff;
+  width: 50%;
+  cursor: pointer;
+}
+.form-wrapper p {
+  font-size: 13px;
+  color: rgb(82, 82, 82);
+  margin-top: 2%;
+}
+.social-buttons {
+  display: inline;
+  margin: 2%;
+}
+.fab {
+  padding: 3px;
+  font-size: 25px;
+}
+.fa-facebook {
+  color: rgb(58, 58, 255);
+}
+
+.fa-google-plus {
+  color: rgb(255, 46, 57);
+}
+.bottom-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bottom-links a {
+  text-decoration: none;
+  color: rgb(94, 94, 94);
+  font-size: 14px;
+  margin-top: 1%;
+}
+a:nth-child(1) {
+  color: rgb(255, 61, 61);
+}
