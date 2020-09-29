@@ -39,7 +39,7 @@ input[type="text"],
   padding: 10px;
   margin: 2%;
   border-radius: 50px;
-  width: 90%;
+  width: 80%;
   background-color: rgb(231, 231, 231);
   outline: none;
 }
@@ -55,14 +55,16 @@ input[type="submit"] {
     rgb(255, 0, 200)
   );
   color: #fff;
-  width: 50%;
+  width: 35%;
   cursor: pointer;
 }
+
 .form-wrapper p {
   font-size: 13px;
   color: rgb(82, 82, 82);
   margin-top: 2%;
 }
+
 .social-buttons {
   display: inline;
   margin: 2%;
@@ -88,7 +90,9 @@ input[type="submit"] {
   color: rgb(94, 94, 94);
   font-size: 14px;
   margin-top: 1%;
+  font-weight: 400;
 }
 a:nth-child(1) {
   color: rgb(255, 61, 61);
+  font-weight: 500;
 }
