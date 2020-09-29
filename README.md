@@ -1,3 +1,3 @@
 Login form made using pure HTML and CSS. Make sure you check out the code and don't forget to star the repo.
 
-![loginform](https://user-images.githubusercontent.com/44538497/94358649-2b977880-00c0-11eb-8c10-9bfc5b56eb06.png)
+![Screenshot_2020-09-29 Login Form](https://user-images.githubusercontent.com/44538497/94556120-385fcc00-027a-11eb-831c-ae34cf0fbf7e.png)
